@@ -1,0 +1,69 @@
+#div1{
+    margin-top: 70px;
+    height:20vh;
+    border: 4px solid black;
+}
+#div2{
+    margin-top: 40px;
+    height:30vh;
+    width:50vw;
+    border: 4px solid black;
+}
+#main{
+    position: relative;
+    height: 70px;
+    width:70px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+.text{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+.button-text{
+    font-family: 'Pacifico', cursive;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.curr{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    border-top: 5px solid black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.next{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    border-top: 5px solid black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    top:100%;
+}
+
+.animate{
+    transition: all 0.5s;
+    top:0%;
+}
+.counter-button{
+    font-family: 'Pacifico', cursive;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    background-color: darkgrey;
+    border: 3px solid black;
+    transition: all 0.4s;
+
+}
+.counter-button:hover{
+    transform: scale(1.1);
+}
